@@ -163,7 +163,8 @@
             android:id="@+id/quantityEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:enabled="false" />
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageButton
